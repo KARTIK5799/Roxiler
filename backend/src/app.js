@@ -2,7 +2,7 @@ import express from "express";
 import connectDB from "./config/db.js";
 import './config/dotenv.config.js'
 import seedDatabase from "./utils/seedDatabase.js";
-import transactionRoutes from './routes/transactionController.js'
+import transactionRoutes from './routes/transactionRoute.js'
 
 connectDB();
 seedDatabase();
