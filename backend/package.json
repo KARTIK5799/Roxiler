@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "server.js",
-  "scripts": {
-  "start": "node src/index.js",
-  "build":"npm install && npm run build",
-  "dev": "nodemon src/server.js"
-},
+"scripts": {
+    "start": "node src/server.js",
+    "build": "npm install",
+    "dev": "nodemon src/server.js"
+  },
   "type": "module",
   "keywords": [],
   "author": "",
